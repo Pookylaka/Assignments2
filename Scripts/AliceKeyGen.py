@@ -1,9 +1,6 @@
-# This script implements a simple version of the RSA Encryption protocol
-
-# Importing the necessary libraries
+# Import the necessary libraries
 import random
 import math
-# Sympy is a library for symbolic mathematics
 import sympy
 
 # Now we use Sympy to generate a random prime number of a given size

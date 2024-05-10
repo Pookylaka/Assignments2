@@ -1,6 +1,3 @@
-# This scrip uses the private key d to decrypt the message contained in the file "encrypted_message.txt"
-# The decrypted message is written in a file called "decrypted_message.txt"
-
 # First, we read the encrypted message
 with open("encrypted_message.txt", "r") as file:
     encrypted_message = [int(line) for line in file]
